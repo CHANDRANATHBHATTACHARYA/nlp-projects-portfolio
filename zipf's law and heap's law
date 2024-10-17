@@ -1,0 +1,30 @@
+# Zipf's Law and Heap's Law Analysis
+
+This project explores two well-known laws in computational linguistics and information theory: **Zipf's Law** and **Heap's Law**. Both laws describe properties of word frequencies and vocabulary growth in large text corpora. The analysis is performed on a given corpus to observe how these laws manifest in real-world data.
+
+## Project Structure
+
+- **zipf's law and heap's law.ipynb**: The Jupyter Notebook containing the implementation of the analysis.
+- **Dataset**: The project uses a sample text corpus to study the distribution of word frequencies (Zipf's Law) and the relationship between vocabulary size and corpus size (Heap's Law).
+
+## Key Concepts
+
+### Zipf's Law
+Zipf's Law suggests that in a corpus of natural language, the frequency of any word is inversely proportional to its rank in the frequency table. In simpler terms, the second most frequent word occurs half as often as the most frequent word, the third most frequent word occurs one-third as often, and so on.
+
+### Heap's Law
+Heap's Law relates the size of a text corpus to the number of unique words (vocabulary size) it contains. As more words are added to the corpus, the vocabulary size grows sublinearly, typically following the function: `V(N) = k * N^β`, where `V(N)` is the vocabulary size, `N` is the total number of words, and `k` and `β` are constants.
+
+## Implementation Details
+
+- **Libraries Used**: Python, Numpy, Matplotlib, Pandas, NLTK (Natural Language Toolkit).
+- **Steps Involved**:
+  1. Preprocessing the text corpus (tokenization, stopword removal, etc.).
+  2. Calculating word frequencies and visualizing Zipf's Law.
+  3. Analyzing vocabulary growth to verify Heap's Law.
+  4. Plotting the frequency distribution and vocabulary growth curves.
+
+## Results
+
+The notebook demonstrates the empirical verification of Zipf's Law, showing a log-log plot of word ranks versus frequency that fits a linear distribution. Heap's Law is verified by plotting the vocabulary size against the total number of words in the corpus, confirming a sublinear growth pattern.
+
