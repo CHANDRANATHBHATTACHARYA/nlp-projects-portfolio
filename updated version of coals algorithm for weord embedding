@@ -1,0 +1,17 @@
+# Coal's Law Analysis
+
+This project explores **Coal's Law**, a theoretical model (or principle) applied within a specific domain, demonstrating its relevance through data analysis. The analysis is carried out using a Jupyter Notebook, where the data is processed and visualized to validate the law's assumptions and conclusions.
+
+## Project Structure
+
+- **updated coal's law.ipynb**: The Jupyter Notebook that contains the implementation and analysis of Coal's Law.
+- **Dataset**: The data used in the notebook for the analysis of Coal's Law is processed to demonstrate the principle through practical examples.
+
+## Key Concepts
+
+The notebook includes:
+1. **Data preprocessing**: Cleaning and preparing the dataset for analysis.
+2. **Analysis of Coal's Law**: Applying the theory to the dataset and examining its outcomes.
+
+
+
